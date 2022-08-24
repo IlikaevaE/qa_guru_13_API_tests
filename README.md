@@ -54,6 +54,15 @@ clean test
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 
+
+<p  align="center">
+<img src="images/screens/APIReport.png" alt="AllureReportApi" width="600">
+</p>
+
+<p  align="center">
+<img src="images/screens/AllureReportApi.png" alt="AllureTestCases" width="600">
+</p>
+
 # <a name="ИнтеграцияСAllureTestOps">Интеграция с Allure TestOps</a>
 
 Allure TestOps предоставляет возможность командам создавать тестовую документацию, хранить,
