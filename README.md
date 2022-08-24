@@ -45,6 +45,13 @@ clean test
 ```
 # <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
 
+Отправка уведомлений о результатах прохождения тестов осуществляется с помощью Telegram бота.
+
+<p  align="center">
+<img src="images/screens/API_Telegram.PNG" alt="TelegramBot" width="600">
+</p>
+
+
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 
 # <a name="ИнтеграцияСAllureTestOps">Интеграция с Allure TestOps</a>
@@ -54,10 +61,20 @@ Allure TestOps предоставляет возможность команда�
 
 ## <a name="СписокТестовыхСлучаевВПроекте">Список тестовых случаев в проекте</a>
 
+<p  align="center">
+<img src="images/screens/API_testcasesTestOPs.png" alt="AllureTestOpsTestCases" width="1050">
+</p>
+
 ## <a name="Dashboards">Dashboards</a>
 
+Отслеживание хода выполнения тестирования в Allure TestOps:
+<p  align="center">
+<img src="images/screens/TestOpsDash_api.PNG" alt="TestOpsDash_api" width="1050">
+</p>
+
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
+Интеграция с Jira позволяет отследить результаты прохождения тестов. 
 
 <p  align="center">
-<img src="images/screens/JiraMobile.PNG" alt="JiraMobile" width="1050">
+<img src="images/screens/API_Jira.PNG" alt="JiraAPI" width="1050">
 </p>
