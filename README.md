@@ -13,7 +13,8 @@
 + [Интеграция с Jira](#ИнтеграцияСJira)
 
 
-<a name="ИспользуемыеТехнологии">Используемые технологии</a>
+# <a name="ИспользуемыеТехнологии">Используемые технологии</a>
+
 <p align="center">
 <img width="6%" title="IntelliJ" src="images/logo/IntelliJ.svg">
 <img width="6%" title="Java" src="images/logo/Java.svg">
