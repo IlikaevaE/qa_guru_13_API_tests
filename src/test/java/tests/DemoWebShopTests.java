@@ -18,7 +18,7 @@ public class DemoWebShopTests extends TestBase {
     @Test
     @Feature("DemoWebShop: Регистрация нового пользователя в системе")
     @Story("Заполнение формы регистрации нового пользователя с использованием UI")
-    @DisplayName("Проверяем возможность регистации нового пользователя")
+    @DisplayName("Проверяем возможность регистрации нового пользователя")
     void registerNewUser() {
 
         registrationFormPage
