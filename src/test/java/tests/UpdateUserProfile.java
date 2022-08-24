@@ -15,9 +15,8 @@ import static tests.TestData.*;
 
 public class UpdateUserProfile extends TestBase{
 
-    @Disabled
     @Test
-    @DisplayName("Change user data in the user profile")
+    @DisplayName("Изменение пользовательских данных в профиле пользователя")
     void changeUserData() {
         String cookieKey = "NOPCOMMERCE.AUTH";
         String cookieValue = given()

@@ -17,7 +17,7 @@ public class RegistrationFormPage {
             confirmPasswordInput = $("#ConfirmPassword"),
             submitClick = $("#register-button");
 
-    @Step("Open the page demowebshop")
+    @Step("Открываем стартовую страницу Demowebshop")
     public RegistrationFormPage openPage() {
         open("http://demowebshop.tricentis.com/register");
         executeJavaScript("$('footer').remove()");
@@ -25,48 +25,48 @@ public class RegistrationFormPage {
         return this;
     }
 
-    @Step("Choose gender")
+    @Step("Выбираем нужный пол")
     public RegistrationFormPage setGender() {
         genderInput.click();
         return this;
     }
 
-    @Step("Enter user first name")
+    @Step("Вводим имя пользователя")
     public RegistrationFormPage setFirstName(String value) {
         firstNameInput.setValue(value);
         return this;
     }
 
-    @Step("Enter user last name")
+    @Step("Вводим фамилию пользователя")
     public RegistrationFormPage setLastName(String value) {
         lastNameInput.setValue(value);
         return this;
     }
 
-    @Step("Enter user email")
+    @Step("Вводим адрес электронной почты")
     public RegistrationFormPage setEmail(String value) {
         emailInput.setValue(value);
         return this;
     }
 
-    @Step("Enter new password")
+    @Step("Задаем новый пароль")
     public RegistrationFormPage setPassword(String value) {
         passwordInput.setValue(value);
         return this;
     }
 
-    @Step("Confirm new password")
+    @Step("Подтверждаем введенный пароль")
     public RegistrationFormPage setConfirmPassword(String value) {
         confirmPasswordInput.setValue(value);
         return this;
     }
 
-    @Step("Click on the button Register")
+    @Step("Нажимаем на кнопку Register")
     public RegistrationFormPage clickSubmit() {
         submitClick.click();
         return this;
     }
-    @Step("Check the result of registration")
+    @Step("Проверяем, что регистрация прошла успешно")
     public RegistrationFormPage checkResult() {
         $(".result").shouldHave(Condition.text("Your registration completed"));
         return this;
