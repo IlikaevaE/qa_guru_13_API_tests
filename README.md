@@ -57,11 +57,11 @@ clean test
 
 
 <p  align="center">
-<img src="images/screens/APIReport.png" alt="AllureReportApi" width="600">
+<img src="images/screens/APIReport.png" alt="AllureReportApi" width="1050">
 </p>
 
 <p  align="center">
-<img src="images/screens/AllureReportApi.png" alt="AllureTestCases" width="600">
+<img src="images/screens/AllureReportApi.png" alt="AllureTestCases" width="1050">
 </p>
 
 # <a name="ИнтеграцияСAllureTestOps">Интеграция с Allure TestOps</a>
