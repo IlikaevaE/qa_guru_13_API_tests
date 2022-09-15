@@ -14,13 +14,11 @@ import static io.qameta.allure.Allure.step;
 import static tests.TestData.*;
 
 public class DemoWebShopTests extends TestBase {
-
     @Test
     @Feature("DemoWebShop: Регистрация нового пользователя в системе")
     @Story("Заполнение формы регистрации нового пользователя с использованием UI")
     @DisplayName("Проверяем возможность регистрации нового пользователя")
     void registerNewUser() {
-
         registrationFormPage
                 .openPage()
                 .setGender()
@@ -29,9 +27,7 @@ public class DemoWebShopTests extends TestBase {
                 .setEmail(EMAIL)
                 .setPassword(PASSWORD)
                 .setConfirmPassword(PASSWORD)
-                .clickSubmit();
-
-        registrationFormPage
+                .clickSubmit()
                 .checkResult();
     }
 
@@ -40,7 +36,6 @@ public class DemoWebShopTests extends TestBase {
     @Story("Авторизация существующего пользователя с API и актуализация его профиля с UI")
     @DisplayName("Проверка возможности изменения данных профиля у авторизованного пользователя")
     void updateUserProfile() {
-
         Cookie authCookie = authorizationPage.authUserTest();
 
         authorizationPage.openLoginPage();

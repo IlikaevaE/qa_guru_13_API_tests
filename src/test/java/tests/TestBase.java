@@ -15,7 +15,6 @@ import pages.RegistrationFormPage;
 
 public class TestBase {
     static CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
-
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
     AuthorizationPage authorizationPage = new AuthorizationPage();
 
@@ -26,11 +25,9 @@ public class TestBase {
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
 
-
         RestAssured.baseURI = "http://demowebshop.tricentis.com";
         Configuration.baseUrl = "http://demowebshop.tricentis.com";
         Configuration.remote = String.format("https://%s:%s@%s", config.login(), config.password(), config.remoteWD());
-
     }
 
     @AfterEach
@@ -39,6 +36,5 @@ public class TestBase {
         Attach.browserConsoleLogs();
         Attach.pageSource();
         Attach.addVideo();
-
     }
 }

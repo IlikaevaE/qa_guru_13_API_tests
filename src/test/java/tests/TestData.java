@@ -1,9 +1,7 @@
 package tests;
-
 import com.github.javafaker.Faker;
 
 public class TestData {
-
     static Faker faker = new Faker();
     public final static String FIRST_NAME = faker.address().firstName(),
             LAST_NAME = faker.address().lastName(),
